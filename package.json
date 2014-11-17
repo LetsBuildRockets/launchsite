@@ -1,0 +1,20 @@
+{
+  "name": "js-webserv",
+  "version": "0.0.1",
+  "description": "Node.js Website Sever",
+  "homepage": "https://github.com/ericsims/js-webserv",
+  "author": {
+    "name": "Eric Sims",
+    "email": "EricSimsM@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ericsims/js-webserv.git"
+  },
+  "dependencies": {
+    "express": ">=3",
+    "jade": "*",
+    "stylus": "*",
+    "nib": "*"
+  }
+}
