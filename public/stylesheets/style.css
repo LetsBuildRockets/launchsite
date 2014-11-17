@@ -123,20 +123,20 @@ header {
   text-shadow: 0px -1px 0px #df1806;
 }
 .container {
-  width: 500px;
+  width: 900px;
   margin: 50px auto;
   overflow: hidden;
 }
 .main-content {
   float: left;
-  width: 300px;
+  width: 600px;
 }
 .main-content p {
   margin-bottom: 20px;
 }
 .sidebar {
   float: left;
-  width: 200px;
+  width: 300px;
 }
 .sidebar .widget {
 /*
