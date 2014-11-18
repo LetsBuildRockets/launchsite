@@ -1,15 +1,15 @@
 {
-  "name": "js-webserv",
-  "version": "0.0.1",
+  "name": "launchsite",
+  "version": "0.0.2",
   "description": "Node.js Website Sever",
-  "homepage": "https://github.com/ericsims/js-webserv",
+  "homepage": "https://github.com/letsbuildrockets/launchsite",
   "author": {
     "name": "Eric Sims",
     "email": "EricSimsM@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ericsims/js-webserv.git"
+    "url": "git://github.com/letsbuildrockets/launchsite.git"
   },
   "dependencies": {
     "express": ">=3",
