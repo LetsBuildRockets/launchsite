@@ -18,7 +18,7 @@ global-reset()
  * background color as variables
  */
 main-color = #de8642
-background-color = #fff2e7
+background-color = #f4f4f4
 
 body
   font-family 'Georgia'
@@ -26,23 +26,25 @@ body
   color #444444
 
 header
-  .title
+  h1 
     font-family 'Quicksand'
-    padding 20px 10px
+    padding 10px 10px
     color #fff
-    font-size 45px
+    font-size 50px
     text-align center
-
-  /*
-   * Note the use of the `main-color`
-   * variable and the `darken` function
-   */
-  background-color main-color
-  border-bottom 0px solid darken(main-color, 30%)
-  text-shadow 0px -1px 0px darken(main-color, 30%)
-
+    font-weight bold
+    text-shadow 3px 3px #0
+  h2 
+    font-family 'Quicksand'
+    padding 20px 0px
+    color #fff
+    font-size 20px
+    text-align center
+    font-weight bold
+    text-shadow 3px 3px #0
+  background-image url("http://localhost:3000/stars.jpg")
+  background-size cover
 nav
-  background-color main-color
   ul
     text-align left
     border-bottom 1px
@@ -54,31 +56,34 @@ nav
       display inline
       
       a
+        background-color background-color
         font-weight bold
         color #444444
-        border 1px
         solid #ccc
         text-decoration none
         padding 10px 20px
         border-bottom none
         margin-right 5px
         margin-bottom 0px
+        border-bottom 0px
         border-top-left-radius 15px
         border-top-right-radius 15px
-        background-color #D0CABF
+        opacity .8
         
       a:visted
         color #5e9ca0
           
       a.current
         background-color background-color
-
+        opacity 1
+        
       a:hover
+        opacity 1
         color #000
         background-color #fff2e7
 
 .container
-  width 900px
+  width 1200px
   margin 50px auto
   overflow hidden
 
@@ -89,12 +94,27 @@ nav
   p
     margin-bottom 20px
 
+update
+  details
+    margin-left 20px
+    
+    h2
+      font-weight bold
+      
+    p
+      margin-left 26px
+      line-height 1
+      
+  summary::-webkit-details-marker
+    color #00ACF3
+    font-size 125%
+    margin-right 2px
+
+
 .sidebar
   float left
   width 300px
-
   .widget
-
     /*
      * Note the lack of vendor
      * prefixes here. Nib will
@@ -120,7 +140,8 @@ nav
       margin-bottom 10px
 
 p
-  line-height 1.8
+  line-height 1.2
+  text-indent 30px
 
 footer
   width 500px

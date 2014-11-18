@@ -1,12 +1,12 @@
 doctype
 html
   head
-    title #{title} - My Site
+    title #{title} - Let's Build Rockets
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     header
-      .title
-        h1 My Site
+       h1 Let's Build Rockets
+       h2 "A good rule for rocket experimenters to follow is this: always assume that it will explode." - Astronautics, issue 38, October 1937.
        nav
          ul
            li 
@@ -15,15 +15,15 @@ html
              else
                a(href='/') Home
            li
-             if(currentURL == '/users/')
-               a(href='/users/').current Users
+             if(currentURL == '/projects')
+               a(href='/projects').current Projects
              else
-               a(href='/users/') Users
+               a(href='/projects') Projects
            li
-             if(currentURL == '/seeds/')
-               a(href='/seeds/').current Seeds 
+             if(currentURL == '/updates')
+               a(href='/updates').current Updates 
              else
-               a(href='/seeds/') Seeds
+               a(href='/updates') Updates
     .container
       .main-content
         block content

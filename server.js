@@ -26,6 +26,20 @@ app.get('/', function (req, res) {
 	});
 });
 
+app.get('/projects', function (req, res) {
+	res.render('projects', {
+		title : 'Projects',
+		currentURL:'/projects' 
+	});
+});
+
+app.get('/updates', function (req, res) {
+	res.render('updates', {
+		title : 'Updates',
+		currentURL:'/updates' 
+	});
+});
+
 
 
 app.listen(3000);
