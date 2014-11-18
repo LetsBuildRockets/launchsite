@@ -20,26 +20,10 @@ app.use(express.static(__dirname + '/public'));
 
 
 app.get('/', function (req, res) {
-	res.render('index', {
-		title : 'Home',
+	res.render('maintenance', {
+		title : 'Maintenance',
 		currentURL:'/' 
 	});
 });
 
-app.get('/projects', function (req, res) {
-	res.render('projects', {
-		title : 'Projects',
-		currentURL:'/projects' 
-	});
-});
-
-app.get('/updates', function (req, res) {
-	res.render('updates', {
-		title : 'Updates',
-		currentURL:'/updates' 
-	});
-});
-
-
-
-app.listen(3000);
+app.listen(80);
