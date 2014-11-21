@@ -109,7 +109,7 @@ body {
   color: #444;
 }
 header {
-  background-image: url("http://localhost:3000/stars.jpg");
+  background-image: url("/stars.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
