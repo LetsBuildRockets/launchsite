@@ -1,0 +1,178 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   '-g',
+1 verbose cli   'install',
+1 verbose cli   'angular-fullstack',
+1 verbose cli   'yo' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'angular-fullstack', null ]
+6 verbose cache add name=undefined spec="angular-fullstack" args=["angular-fullstack",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'angular-fullstack',
+7 verbose parsed url   path: 'angular-fullstack',
+7 verbose parsed url   href: 'angular-fullstack' }
+8 verbose cache add [ 'yo', null ]
+9 verbose cache add name=undefined spec="yo" args=["yo",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'yo',
+10 verbose parsed url   path: 'yo',
+10 verbose parsed url   href: 'yo' }
+11 silly lockFile 080ca913-angular-fullstack angular-fullstack
+12 verbose lock angular-fullstack /home/eric/.npm/080ca913-angular-fullstack.lock
+13 silly lockFile c41975d1-yo yo
+14 verbose lock yo /home/eric/.npm/c41975d1-yo.lock
+15 silly lockFile 080ca913-angular-fullstack angular-fullstack
+16 silly lockFile 080ca913-angular-fullstack angular-fullstack
+17 silly lockFile c41975d1-yo yo
+18 silly lockFile c41975d1-yo yo
+19 verbose addNamed [ 'angular-fullstack', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 48c7f1ff-angular-fullstack angular-fullstack@
+22 verbose lock angular-fullstack@ /home/eric/.npm/48c7f1ff-angular-fullstack.lock
+23 verbose addNamed [ 'yo', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile d937c28e-yo yo@
+26 verbose lock yo@ /home/eric/.npm/d937c28e-yo.lock
+27 silly addNameRange { name: 'yo', range: '*', hasData: false }
+28 silly addNameRange { name: 'angular-fullstack', range: '*', hasData: false }
+29 verbose request where is /angular-fullstack
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 4256aab7cba27050
+32 verbose url raw /angular-fullstack
+33 verbose url resolving [ 'https://registry.npmjs.org/', './angular-fullstack' ]
+34 verbose url resolved https://registry.npmjs.org/angular-fullstack
+35 verbose request where is https://registry.npmjs.org/angular-fullstack
+36 info trying registry request attempt 1 at 11:00:40
+37 http GET https://registry.npmjs.org/angular-fullstack
+38 verbose request where is /yo
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /yo
+41 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+42 verbose url resolved https://registry.npmjs.org/yo
+43 verbose request where is https://registry.npmjs.org/yo
+44 info trying registry request attempt 1 at 11:00:40
+45 verbose etag "8W7GA4P2UE47Q9RYKJQGD0SPW"
+46 http GET https://registry.npmjs.org/yo
+47 http 404 https://registry.npmjs.org/angular-fullstack
+48 verbose headers { date: 'Fri, 21 Nov 2014 16:00:39 GMT',
+48 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+48 verbose headers   'content-type': 'application/json',
+48 verbose headers   'cache-control': 'max-age=0',
+48 verbose headers   'content-length': '52',
+48 verbose headers   'accept-ranges': 'bytes',
+48 verbose headers   via: '1.1 varnish',
+48 verbose headers   age: '0',
+48 verbose headers   'x-served-by': 'cache-jfk1035-JFK',
+48 verbose headers   'x-cache': 'MISS',
+48 verbose headers   'x-cache-hits': '0',
+48 verbose headers   'x-timer': 'S1416585639.964041,VS0,VE16',
+48 verbose headers   'keep-alive': 'timeout=10, max=50',
+48 verbose headers   connection: 'Keep-Alive' }
+49 silly registry.get cb [ 404,
+49 silly registry.get   { date: 'Fri, 21 Nov 2014 16:00:39 GMT',
+49 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+49 silly registry.get     'content-type': 'application/json',
+49 silly registry.get     'cache-control': 'max-age=0',
+49 silly registry.get     'content-length': '52',
+49 silly registry.get     'accept-ranges': 'bytes',
+49 silly registry.get     via: '1.1 varnish',
+49 silly registry.get     age: '0',
+49 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+49 silly registry.get     'x-cache': 'MISS',
+49 silly registry.get     'x-cache-hits': '0',
+49 silly registry.get     'x-timer': 'S1416585639.964041,VS0,VE16',
+49 silly registry.get     'keep-alive': 'timeout=10, max=50',
+49 silly registry.get     connection: 'Keep-Alive' } ]
+50 silly lockFile 48c7f1ff-angular-fullstack angular-fullstack@
+51 silly lockFile 48c7f1ff-angular-fullstack angular-fullstack@
+52 http 304 https://registry.npmjs.org/yo
+53 silly registry.get cb [ 304,
+53 silly registry.get   { date: 'Fri, 21 Nov 2014 16:00:39 GMT',
+53 silly registry.get     server: 'Apache',
+53 silly registry.get     via: '1.1 varnish',
+53 silly registry.get     'last-modified': 'Fri, 21 Nov 2014 16:00:40 GMT',
+53 silly registry.get     'cache-control': 'max-age=60',
+53 silly registry.get     etag: '"8W7GA4P2UE47Q9RYKJQGD0SPW"',
+53 silly registry.get     age: '0',
+53 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+53 silly registry.get     'x-cache': 'HIT',
+53 silly registry.get     'x-cache-hits': '1',
+53 silly registry.get     'x-timer': 'S1416585639.974586,VS0,VE357',
+53 silly registry.get     vary: 'Accept',
+53 silly registry.get     'content-length': '0',
+53 silly registry.get     'keep-alive': 'timeout=10, max=50',
+53 silly registry.get     connection: 'Keep-Alive' } ]
+54 verbose etag https://registry.npmjs.org/yo from cache
+55 silly addNameRange number 2 { name: 'yo', range: '*', hasData: true }
+56 silly addNameRange versions [ 'yo',
+56 silly addNameRange   [ '1.0.0-beta.1',
+56 silly addNameRange     '1.0.0-beta.2',
+56 silly addNameRange     '1.0.0-beta.3',
+56 silly addNameRange     '1.0.0-beta.4',
+56 silly addNameRange     '1.0.0-beta.5',
+56 silly addNameRange     '1.0.0-beta.6',
+56 silly addNameRange     '1.0.0-beta.7',
+56 silly addNameRange     '1.0.0-rc.1',
+56 silly addNameRange     '1.0.0-rc.1.1',
+56 silly addNameRange     '1.0.0-rc.1.2',
+56 silly addNameRange     '1.0.0-rc.1.3',
+56 silly addNameRange     '1.0.0-rc.1.4',
+56 silly addNameRange     '1.0.0',
+56 silly addNameRange     '1.0.1',
+56 silly addNameRange     '1.0.2',
+56 silly addNameRange     '1.0.3',
+56 silly addNameRange     '1.0.4',
+56 silly addNameRange     '1.0.5',
+56 silly addNameRange     '1.0.6',
+56 silly addNameRange     '1.0.7-pre.1',
+56 silly addNameRange     '1.0.7-pre.2',
+56 silly addNameRange     '1.0.7-pre.3',
+56 silly addNameRange     '1.1.0',
+56 silly addNameRange     '1.1.1',
+56 silly addNameRange     '1.1.2',
+56 silly addNameRange     '1.2.0',
+56 silly addNameRange     '1.2.1',
+56 silly addNameRange     '1.3.0',
+56 silly addNameRange     '1.3.2',
+56 silly addNameRange     '1.3.3' ] ]
+57 verbose addNamed [ 'yo', '1.3.3' ]
+58 verbose addNamed [ '1.3.3', '1.3.3' ]
+59 silly lockFile 68164736-yo-1-3-3 yo@1.3.3
+60 verbose lock yo@1.3.3 /home/eric/.npm/68164736-yo-1-3-3.lock
+61 silly lockFile 68164736-yo-1-3-3 yo@1.3.3
+62 silly lockFile 68164736-yo-1-3-3 yo@1.3.3
+63 silly lockFile d937c28e-yo yo@
+64 silly lockFile d937c28e-yo yo@
+65 error 404 404 Not Found: angular-fullstack
+65 error 404
+65 error 404 'angular-fullstack' is not in the npm registry.
+65 error 404 You should bug the author to publish it
+65 error 404
+65 error 404 Note that you can also install from a
+65 error 404 tarball, folder, or http url, or git url.
+66 error System Linux 3.13.0-39-generic
+67 error command "/usr/bin/node" "/usr/bin/npm" "-g" "install" "angular-fullstack" "yo"
+68 error cwd /home/eric/Documents/launchsite
+69 error node -v v0.10.33
+70 error npm -v 1.4.28
+71 error code E404
+72 verbose exit [ 1, true ]
