@@ -18,16 +18,16 @@
     color: #E0E0E0;
     padding: 30px 15px;
     text-align: center;
-	font-family: "Permanent Marker";
-	text-shadow:
-		-3px -3px 0 #000,  
-		3px -3px 0 #000,
-		-3px 3px 0 #000,
-		3px 3px 0 #000;
+    font-family: "Permanent Marker";
+    text-shadow:
+      -3px -3px 0 #000,  
+      3px -3px 0 #000,
+      -3px 3px 0 #000,
+      3px 3px 0 #000;
     /*background: #4393B9;*/
     background: #000000;
-	background-image: url("../../assets/images/space.png");
-	background-repeat: no-repeat;
+    background-image: url("../../assets/images/space.png");
+    background-repeat: no-repeat;
     background-position: center; 
 }
 
