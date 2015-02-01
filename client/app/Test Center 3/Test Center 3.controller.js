@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('launchsiteApp')
-  .controller('ProjectsCtrl', function ($scope) {
+  .controller('TestCenter3Ctrl', function ($scope) {
     $scope.message = 'Hello';
   });

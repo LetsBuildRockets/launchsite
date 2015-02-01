@@ -6,8 +6,11 @@ angular.module('launchsiteApp')
       'title': 'Home',
       'link': '/'
     },{
-      'title': 'Projects',
-      'link': '/projects'
+      'title': 'Test Center',
+      'link': '/TestCenter3'
+    },{
+      'title': 'About',
+      'link': '/about'
     }];
 
     $scope.isCollapsed = true;

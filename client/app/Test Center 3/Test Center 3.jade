@@ -1,0 +1,94 @@
+head
+  link(rel='stylesheet', href='/components/highslide/highslide.css')
+  script(type="text/javascript", src="/components/highslide/highslide.js")
+  script(type='text/javascript').
+    wrapperClassName = 'wide-border'
+    hs.graphicsDir = '/components/highslide/graphics/'
+
+div(ng-include='"components/navbar/navbar.html"')
+
+header#banner.hero-unit
+  .container
+    h1 Let's Build Rockets!
+
+
+.container
+  .row
+    .col-lg-12
+      h1. Test Center 3
+      p.
+        Test Center 3 was designed primarily as a test setup for the V4 Mark I engine, but will also be compatible for future use.
+      br
+      
+      h3. Test Stand
+      p. The test stand is simply a steel prism to mount the engine to.
+      p.
+        <a href="/assets/images/Test Center 3/assembly1.png" class="highslide" onclick="return hs.expand(this)">
+        <img src="/assets/images/Test Center 3/assembly1.png" alt="Highslide JS" title="Click to enlarge" height="150" /></a>
+        <div class="highslide-caption">
+        Test Stand Cad Screenshot
+        </div>
+      br
+      
+      h3. Plumbing
+      p. The Test Center plumbing is one of the most difficult parts. It requires a decent amount of math, requires precision cleaning, and is costly.
+      p.
+        <a href="/assets/images/Test Center 3/TS Plumbing Overview.jpg" class="highslide" onclick="return hs.expand(this)">
+        <img src="/assets/images/Test Center 3/TS Plumbing Overview.jpg" alt="Highslide JS" title="Click to enlarge" height="150" /></a>
+        <div class="highslide-caption">
+        Test Stand Cad Screenshot
+        </div>
+      br
+      
+      h3. Control Electronics
+      p. The system is based around the Raspberry Pi and the I2C bus.
+      p.
+        <a href="/assets/images/Test Center 3/sch1.png" class="highslide" onclick="return hs.expand(this)">
+        <img src="/assets/images/Test Center 3/sch1.png" alt="Highslide JS" title="Click to enlarge" height="150" /></a>
+        <div class="highslide-caption">
+        16 Channel I2C ADC Schematic
+        </div>
+        <a href="/assets/images/Test Center 3/brd1.png" class="highslide" onclick="return hs.expand(this)">
+        <img src="/assets/images/Test Center 3/brd1.png" alt="Highslide JS" title="Click to enlarge" height="150" /></a>
+        <div class="highslide-caption">
+        16 Channel I2C ADC PCB
+        </div>
+        <a href="/assets/images/Test Center 3/sch2.png" class="highslide" onclick="return hs.expand(this)">
+        <img src="/assets/images/Test Center 3/sch2.png" alt="Highslide JS" title="Click to enlarge" height="150" /></a>
+        <div class="highslide-caption">
+        Analog Multiplexer Schematic
+        </div>
+        <a href="/assets/images/Test Center 3/brd2.png" class="highslide" onclick="return hs.expand(this)">
+        <img src="/assets/images/Test Center 3/brd2.png" alt="Highslide JS" title="Click to enlarge" height="150" /></a>
+        <div class="highslide-caption">
+        Analog Multiplexer PCB
+        </div>
+        <a href="/assets/images/Test Center 3/sch3.png" class="highslide" onclick="return hs.expand(this)">
+        <img src="/assets/images/Test Center 3/sch3.png" alt="Highslide JS" title="Click to enlarge" height="150" /></a>
+        <div class="highslide-caption">
+        Load Cell Amplifier Schematic
+        </div>
+        <a href="/assets/images/Test Center 3/brd3.png" class="highslide" onclick="return hs.expand(this)">
+        <img src="/assets/images/Test Center 3/brd3.png" alt="Highslide JS" title="Click to enlarge" height="150" /></a>
+        <div class="highslide-caption">
+        Load Cell Amplifier PCB
+        </div>
+        <a href="/assets/images/Test Center 3/sch4.png" class="highslide" onclick="return hs.expand(this)">
+        <img src="/assets/images/Test Center 3/sch4.png" alt="Highslide JS" title="Click to enlarge" height="150" /></a>
+        <div class="highslide-caption">
+        Relay Driver Schematic
+        </div>
+        <a href="/assets/images/Test Center 3/brd4.png" class="highslide" onclick="return hs.expand(this)">
+        <img src="/assets/images/Test Center 3/brd4.png" alt="Highslide JS" title="Click to enlarge" height="150" /></a>
+        <div class="highslide-caption">
+        Relay Driver PCB
+        </div>
+      br  
+        
+      h3. Control Software
+      p. The Software for the Test Center runs both the valve sequencer and the data logger. I also worked to try and make a 'pretty' ui, because why not?
+      p
+        |For more info and code see: 
+        a(href='https://github.com/letsbuildrockets/TC-3') GitHub
+        |.
+      br
