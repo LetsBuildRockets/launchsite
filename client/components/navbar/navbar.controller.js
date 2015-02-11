@@ -6,6 +6,9 @@ angular.module('launchsiteApp')
       'title': 'Home',
       'link': '/'
     },{
+      'title': 'Rocket Engine',
+      'link': '/V4MarkI'
+    },{
       'title': 'Test Center',
       'link': '/TestCenter3'
     },{

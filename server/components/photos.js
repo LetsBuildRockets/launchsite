@@ -52,6 +52,14 @@ var dir = "client/assets/images";
 var files = removeNonPicture(read(dir));
 //console.log(indexedFiles);
 
-var json = JSON.stringify(addDims(dir,files));
+var json = JSON.stringify(addDims(dir,files),null,4);
 
 console.log(json);
+
+fs.writeFile("data.json", json, function(err) {
+    if(err) {
+        console.log(err);
+    } else {
+        console.log("The file was saved!");
+    }
+}); 
