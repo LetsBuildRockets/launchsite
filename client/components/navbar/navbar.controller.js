@@ -12,6 +12,9 @@ angular.module('launchsiteApp')
       'title': 'Test Center',
       'link': '/TestCenter3'
     },{
+      'title': 'Combat Robots',
+      'link': '/RobotCombat'
+    },{
       'title': 'About',
       'link': '/about'
     }];
