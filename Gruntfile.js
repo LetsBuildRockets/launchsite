@@ -8,6 +8,8 @@ module.exports = function (grunt) {
   } catch(e) {
     localConfig = {};
   }
+  
+  grunt.loadNpmTasks('../grunt-auto-image');
 
   // Load grunt tasks automatically, when needed
   require('jit-grunt')(grunt, {
@@ -478,6 +480,19 @@ module.exports = function (grunt) {
         }]
       }
     },
+    
+    auto_image: {
+      default_options: {
+        options: {
+        },
+        files: {
+          src: [
+          '.tmp/**/*.hmtl'
+          ],
+          dest: '.tmp'
+        }
+      }
+    },
 
     injector: {
       options: {
@@ -561,6 +576,7 @@ module.exports = function (grunt) {
       'clean:server',
       'env:all',
       'concurrent:server',
+      //'auto_image',
       'injector',
       'wiredep',
       'autoprefixer',

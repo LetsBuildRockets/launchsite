@@ -1,3 +1,10 @@
+head
+  link(rel='stylesheet', href='/components/highslide/highslide.css')
+  script(type="text/javascript", src="/components/highslide/highslide.js")
+  script(type='text/javascript').
+    wrapperClassName = 'wide-border'
+    hs.graphicsDir = '/components/highslide/graphics/'
+
 div(ng-include='"components/navbar/navbar.html"')
 
 
@@ -12,42 +19,41 @@ div(ng-include='"components/navbar/navbar.html"')
       p
         | I have been a paid intern at the 
         a(href='http://www.ctsciencecenter.org/' target='_blank') CT Science Center 
-        | since the summer of my freshman year of high school. I stated as a part of a group of 12 high school students interested in robotics 
+        | since the summer of my freshman year of high school. I stated as a part of a group of 12 high school students in a robotics program where we built small robots to teach visitors about science. One of the exhibits I built was an autonomous robot that would solve a 12ft by 8ft maze while a mouse solved a similar 2ft by 2ft maze. I used this exhibit to personally teach visitors about the ways that robots use sensors and how this differs from an animal.
       br
       
       h3. Movia Robotics
       p
         | Movia Robotics focuses mostly on using robots for education and therapy. I, however, was recruited to help them build an exhibit for 
         a(href='http://www.astc.org') The Association of Science and Technology Centers
-        | , an international organization to promote science education. This exhibit in particular is designed to teach children ages 12-16 about biological viruses. The exhibit is a game where students have to try and kill the virus by connecting glycoproteins to active sites its outer surface. My goal in this production was to design and build the electronics as well program the game. I had to work with outside companies to manufacture my PCB design and the plastic shell of the virus.
-      <a href="/assets/images/Portfolio/virus1.jpg" class="highslide" onclick="return hs.expand(this)">
-      <img src="/assets/images/Portfolio/thumbnails/virus1_thumb.png" title="Click to enlarge" height="150" /></a>
+        | , an international organization to promote science education. This exhibit in particular is designed to teach children ages 12-16 about biological viruses. The exhibit is a game where students have to try and kill the virus by connecting glycoproteins to active sites on its outer surface. My goal in this production was to design and build the electronics as well program the game. I had the great experience of working with outside companies to manufacture my PCB design and the plastic shell of the virus.
+      <a href="/assets/images/Portfolio/vir1.jpg" class="highslide" onclick="return hs.expand(this)">
+      <img src="/assets/images/Portfolio/thumbnails/vir1_thumb.png" title="Click to enlarge" height="150" /></a>
       <div class="highslide-caption">Inside of Exhibit</div>
-      <a href="/assets/images/Portfolio/virus2.jpg" class="highslide" onclick="return hs.expand(this)">
-      <img src="/assets/images/Portfolio/thumbnails/virus2_thumb.png" title="Click to enlarge" height="150" /></a>
+      <a href="/assets/images/Portfolio/vir2.jpg" class="highslide" onclick="return hs.expand(this)">
+      <img src="/assets/images/Portfolio/thumbnails/vir2_thumb.png" title="Click to enlarge" height="150" /></a>
       <div class="highslide-caption">Inside of Exhibit</div>
       br
       
+     
       h3. PicoCTF
       p
-        | I have been a paid intern at the 
-        a(href='http://www.ctsciencecenter.org/' target='_blank') CT Science Center 
-        | since the summer of my freshman year of high school. I stated as a part of a group of 12 high school students interested in robotics 
+        | PicoCTF is an CTF style hacking competition for high school students. I participated in this competition 2013 and 2014. In 2014 I participated as an individual, where I placed 169th place out of 3185 teams (top 6%).
       br
       
       h3. Zero Robotics
       p
-        | Content coming soon...
+        | I competed in the Zero robotics sphere competition in 2011 with about 10 other students from our high school. This is a competition where we have to program virtual 6DOF robots to compete in zero gravity to achieve specific tasks. The top teams are allowed to run their code on actual 6DOF spheres in the international space station.
       br
       
       h3. FIRST Robotics
       p
-        | Content coming soon...
+        | I have been on FIRST Robotics Team 178 since I was in eighth grade. I had the opportunity to build a small 'mini-bot' to compete as part of the main competition. After this, I participated a great deal in the team. I worked in our mechanical, electrical, and programming committees where I built crucial parts of the robot and taught members of the team how to design and assemble components. To name a few, taught students how to solder, weld, program, interface with sensors, assembly gearboxes, and utilize CAD software. I held many roles on the team, including electrical committee head, and treasurer. Additionally, I was a key member of the mechanical design group.
       br
           
       h3. TEDYouth
       p
-        | Content coming soon...
+        | I applied with a group of students in 2012 and 2014 to attend the TEDYouth conference in Manhattan, NY. To say the least, these were great experiences. In 2012 I volunteered back stage where I helped with camera equipment and anything the speakers needed. Both of these events were inspirational and exciting. I was glad to be a part of it.
       br
             
       h3. YCominator Applicant 2015
@@ -58,4 +64,24 @@ div(ng-include='"components/navbar/navbar.html"')
         | . This is only one small part of what YC does. They have helped over 500 startup companies grow into great companies (i.e. reddit, omgpop, and dropbox). I was a co-founder of Food Pigeon, a small startup idea for the 2015 summer season batch of applicants. Our group was not selected, but this did provide a great experience in the business and software world.
       br
       
+      h3. YCominator Applicant 2015
+      p
+        a(href='https://www.ycombinator.com/' target='_blank') YCominator
+        |  is most widely known for their 
+        a(href='https://news.ycombinator.com/' target='_blank') Hacker News
+        | . This is only one small part of what YC does. They have helped over 500 startup companies grow into great companies (i.e. reddit, omgpop, and dropbox). I was a co-founder of Food Pigeon, a small startup idea for the 2015 summer season batch of applicants. Our group was not selected, but this did provide a great experience in the business and software world.
+      br
+      
+      h3. Experimental Rocketry
+      p
+        | I have been designing and building a liquid fueled rocket engine for the past few years. This engine uses liquid oxygen and kerosene to generate 330N of thrust. I plan to launch my 80lb rocket in 2 years. Please see the 
+        a(href='http://letsbuildrockets.org/V4MarkI' target='_blank') V4MarkI rocket engine
+        |  and 
+        a(href='http://letsbuildrockets.org/TestCenter3' target='_blank') Test Center 3
+        |  for a small snapshot of my liquid fueled rocket project. For some test footage and related videos, please visit my 
+        a(href='https://www.youtube.com/channel/UCiAF9XcnRtYSqz1f9S6ik7Q/videos' target='_blank') YouTube Channel
+        | . Or my 
+        a(href='http://facebook.com/letsbuildrockets' target='_blank') Facebook page
+        | .
+        
       br
